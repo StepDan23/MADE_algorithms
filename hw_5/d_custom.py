@@ -138,9 +138,7 @@ class CustomMultiMap:
 
 
 size = _MAX_SAMPLES * 2
-size = 10
 my_map = CustomMultiMap(size, alpha=7, betta=193877777)
-_INPUT_LINES = sys.stdin.read().splitlines()
 _INPUT_LINES = sys.stdin.buffer.read().decode().splitlines()
 output = []
 for line in _INPUT_LINES:

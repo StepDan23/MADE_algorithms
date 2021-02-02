@@ -29,4 +29,3 @@ _ = input()
 unordered_arr = list(map(int, input().split()))
 merge_sort(unordered_arr)
 print(N_swaps)
-

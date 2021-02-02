@@ -47,5 +47,3 @@ def main():
     print(my_graph.max_depth)
 
 main()
-# if __name__ == "__main__":
-#     threading.Thread(target=main).start()

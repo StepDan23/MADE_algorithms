@@ -49,6 +49,7 @@ class CustomMap:
                 return val
         return 'none'
 
+
 size = _MAX_SAMPLES * 2
 my_map = CustomMap(size, alpha=7, betta=193877777)
 _INPUT_LINES = sys.stdin.buffer.read().decode().splitlines()
